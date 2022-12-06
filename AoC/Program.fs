@@ -3,22 +3,29 @@ open Day2
 open Day3
 open Day4
 open Day5
+open Day6
 
 
-let printSolution day part solution =
+let printSolutionInt day part solution =
     printf $"Day %i{day} part %i{part} solution is %i{solution}\n\n"
     
-// printSolution 1 1 day1SolutionPart1
-// printSolution 1 2 day1SolutionPart2
+let printSolutionString day part solution =
+    printf $"Day %i{day} part %i{part} solution is %s{solution}\n\n"
+    
+printSolutionInt 1 1 day1SolutionPart1
+printSolutionInt 1 2 day1SolutionPart2
 
-// printSolution 2 1 day2Part1Solution
-// printSolution 2 2 day2Part2Solution
+printSolutionInt 2 1 day2Part1Solution
+printSolutionInt 2 2 day2Part2Solution
 
-// printSolution 3 1 day3Part1Solution
-// printSolution 3 2 day3Part2Solution
+printSolutionInt 3 1 day3Part1Solution
+printSolutionInt 3 2 day3Part2Solution
      
-// printSolution 4 1 day4Part1Solution
-// printSolution 4 2 day4Part2Solution
+printSolutionInt 4 1 day4Part1Solution
+printSolutionInt 4 2 day4Part2Solution
 
-// printSolution 5 1 day5Part1Solution
-// printSolution 5 2 day5Part2Solution
+printSolutionString 5 1 day5Part1Solution
+printSolutionString 5 2 day5Part2Solution
+
+printSolutionInt 6 1 day6Part1Solution
+printSolutionInt 6 2 day6Part2Solution

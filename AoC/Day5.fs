@@ -11,7 +11,7 @@ type Command = {
     To: int
 }
 
-let lines = File.ReadAllLines "Aoc/input/day5.txt"
+let lines = File.ReadAllLines "input/day5.txt"
 
 let stateString =
     lines
