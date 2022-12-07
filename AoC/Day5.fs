@@ -1,7 +1,7 @@
 ﻿module Day5
 open System.Collections
 open Microsoft.FSharp.Core
-open Parsing 
+open Helpers 
 open System.IO
 //I hate this solution
 
