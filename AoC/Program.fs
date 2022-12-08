@@ -5,6 +5,7 @@ open Day4
 open Day5
 open Day6
 open Day7
+open Day8
 
 
 let printSolutionInt day part solution =
@@ -31,5 +32,8 @@ let printSolutionString day part solution =
 // printSolutionInt 6 1 day6Part1Solution
 // printSolutionInt 6 2 day6Part2Solution
   
-printSolutionInt 7 1 day7Part1Solution
-printSolutionInt 7 2 day7Part2Solution
+// printSolutionInt 7 1 day7Part1Solution
+// printSolutionInt 7 2 day7Part2Solution
+
+printSolutionInt 8 1 day8Part1Solution
+printSolutionInt 8 2 day8Part2Solution
